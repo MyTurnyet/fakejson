@@ -15,13 +15,6 @@
       "color": "WHT"
     },
     {
-      "roadNumber": 1001,
-      "roadName": "CBRW",
-      "carType": "HT",
-      "length": 52,
-      "color": "YELL"
-    },
-    {
       "roadNumber": 1005,
       "roadName": "BLMR",
       "carType": "HT",
@@ -44,13 +37,6 @@
     },
     {
       "roadNumber": 873091,
-      "roadName": "BCIT",
-      "carType": "FBC",
-      "length": 62,
-      "color": "GRN"
-    },
-    {
-      "roadNumber": 873096,
       "roadName": "BCIT",
       "carType": "FBC",
       "length": 62,
