@@ -1,47 +1,1566 @@
 {
-  "rollingstock": [
-    {
-      "roadNumber": 5,
-      "roadName": "BCAX",
-      "carType": "HT",
-      "length": 52,
-      "color": "WHT"
-    },
-    {
-      "roadNumber": 18,
-      "roadName": "SOO",
-      "carType": "XM",
-      "length": 50,
-      "color": "WHT"
-    },
-    {
-      "roadNumber": 1005,
-      "roadName": "BLMR",
-      "carType": "HT",
-      "length": 52,
-      "color": "YELL"
-    },
-    {
-      "roadNumber": 385193,
-      "roadName": "CP",
-      "carType": "HTC",
-      "length": 60,
-      "color": "GRY"
-    },
-    {
-      "roadNumber": 388954,
-      "roadName": "CP",
-      "carType": "HTC",
-      "length": 60,
-      "color": "GRY"
-    },
-    {
-      "roadNumber": 873091,
-      "roadName": "BCIT",
-      "carType": "FBC",
-      "length": 62,
-      "color": "GRN"
-    }
+  "stations": [
+    [
+      {
+        "id": 1,
+        "name": "Maltby",
+        "isYard": false,
+        "block": {
+          "id": 3,
+          "code": "ECHO",
+          "name": "Echo Lake"
+        }
+      },
+      {
+        "id": 2,
+        "name": "High Bridge Yard",
+        "isYard": true,
+        "block": {
+          "id": 3,
+          "code": "ECHO",
+          "name": "Echo Lake"
+        }
+      },
+      {
+        "id": 3,
+        "name": "Monroe",
+        "isYard": false,
+        "block": {
+          "id": 1,
+          "code": "EAST",
+          "name": "Eastern"
+        }
+      },
+      {
+        "id": 4,
+        "name": "Spokane Yard",
+        "isYard": true,
+        "block": {
+          "id": 1,
+          "code": "EAST",
+          "name": "Eastern"
+        }
+      }
+    ]
+  ],
+  "rolling-stock": [
+    [
+      {
+        "id": 1,
+        "carType": "HT",
+        "roadName": "BCAX",
+        "roadNumber": 5,
+        "color": ""
+      },
+      {
+        "id": 2,
+        "carType": "XM",
+        "roadName": "SOO",
+        "roadNumber": 18,
+        "color": ""
+      },
+      {
+        "id": 3,
+        "carType": "XM",
+        "roadName": "RPCX",
+        "roadNumber": 106,
+        "color": ""
+      },
+      {
+        "id": 4,
+        "carType": "XM",
+        "roadName": "SOO",
+        "roadNumber": 189,
+        "color": ""
+      },
+      {
+        "id": 5,
+        "carType": "XM",
+        "roadName": "USLX",
+        "roadNumber": 474,
+        "color": ""
+      },
+      {
+        "id": 6,
+        "carType": "HT",
+        "roadName": "PCC",
+        "roadNumber": 1000,
+        "color": ""
+      },
+      {
+        "id": 7,
+        "carType": "HT",
+        "roadName": "CBRW",
+        "roadNumber": 1001,
+        "color": ""
+      },
+      {
+        "id": 8,
+        "carType": "HT",
+        "roadName": "BLMR",
+        "roadNumber": 1002,
+        "color": ""
+      },
+      {
+        "id": 9,
+        "carType": "HT",
+        "roadName": "BLMR",
+        "roadNumber": 1004,
+        "color": ""
+      },
+      {
+        "id": 10,
+        "carType": "HT",
+        "roadName": "BLMR",
+        "roadNumber": 1005,
+        "color": ""
+      },
+      {
+        "id": 11,
+        "carType": "HT",
+        "roadName": "BLMR",
+        "roadNumber": 1007,
+        "color": ""
+      },
+      {
+        "id": 12,
+        "carType": "HT",
+        "roadName": "CBRW",
+        "roadNumber": 1009,
+        "color": ""
+      },
+      {
+        "id": 13,
+        "carType": "HT",
+        "roadName": "BLMR",
+        "roadNumber": 1018,
+        "color": ""
+      },
+      {
+        "id": 14,
+        "carType": "XMO",
+        "roadName": "CDAC",
+        "roadNumber": 1019,
+        "color": ""
+      },
+      {
+        "id": 15,
+        "carType": "XMO",
+        "roadName": "CDAC",
+        "roadNumber": 1020,
+        "color": ""
+      },
+      {
+        "id": 16,
+        "carType": "XMO",
+        "roadName": "CDAC",
+        "roadNumber": 1022,
+        "color": ""
+      },
+      {
+        "id": 17,
+        "carType": "XMO",
+        "roadName": "CDAC",
+        "roadNumber": 1027,
+        "color": ""
+      },
+      {
+        "id": 18,
+        "carType": "XMO",
+        "roadName": "CDAC",
+        "roadNumber": 1030,
+        "color": ""
+      },
+      {
+        "id": 19,
+        "carType": "XMO",
+        "roadName": "CDAC",
+        "roadNumber": 1034,
+        "color": ""
+      },
+      {
+        "id": 20,
+        "carType": "TA",
+        "roadName": "HCPX",
+        "roadNumber": 1254,
+        "color": ""
+      },
+      {
+        "id": 21,
+        "carType": "XPT",
+        "roadName": "PLYX",
+        "roadNumber": 1410,
+        "color": ""
+      },
+      {
+        "id": 22,
+        "carType": "XPT",
+        "roadName": "PLYX",
+        "roadNumber": 1650,
+        "color": ""
+      },
+      {
+        "id": 23,
+        "carType": "HT",
+        "roadName": "PCC",
+        "roadNumber": 2011,
+        "color": ""
+      },
+      {
+        "id": 24,
+        "carType": "XPT",
+        "roadName": "MD&W",
+        "roadNumber": 3014,
+        "color": ""
+      },
+      {
+        "id": 25,
+        "carType": "XPT",
+        "roadName": "MD&W",
+        "roadNumber": 3039,
+        "color": ""
+      },
+      {
+        "id": 26,
+        "carType": "XPT",
+        "roadName": "MD&W",
+        "roadNumber": 3050,
+        "color": ""
+      },
+      {
+        "id": 27,
+        "carType": "XPT",
+        "roadName": "MD&W",
+        "roadNumber": 3054,
+        "color": ""
+      },
+      {
+        "id": 28,
+        "carType": "XM",
+        "roadName": "CNA",
+        "roadNumber": 4050,
+        "color": ""
+      },
+      {
+        "id": 29,
+        "carType": "XPT",
+        "roadName": "LUNX",
+        "roadNumber": 4471,
+        "color": ""
+      },
+      {
+        "id": 30,
+        "carType": "XPT",
+        "roadName": "LUNX",
+        "roadNumber": 4473,
+        "color": ""
+      },
+      {
+        "id": 31,
+        "carType": "XPT",
+        "roadName": "LUNX",
+        "roadNumber": 4474,
+        "color": ""
+      },
+      {
+        "id": 32,
+        "carType": "XPT",
+        "roadName": "LUNX",
+        "roadNumber": 4476,
+        "color": ""
+      },
+      {
+        "id": 33,
+        "carType": "XPT",
+        "roadName": "LUNX",
+        "roadNumber": 4479,
+        "color": ""
+      },
+      {
+        "id": 34,
+        "carType": "XPT",
+        "roadName": "CFPX",
+        "roadNumber": 4564,
+        "color": ""
+      },
+      {
+        "id": 35,
+        "carType": "XPT",
+        "roadName": "CFPX",
+        "roadNumber": 4573,
+        "color": ""
+      },
+      {
+        "id": 36,
+        "carType": "XM",
+        "roadName": "ONT",
+        "roadNumber": 7809,
+        "color": ""
+      },
+      {
+        "id": 37,
+        "carType": "XM",
+        "roadName": "BCIT",
+        "roadNumber": 8004,
+        "color": ""
+      },
+      {
+        "id": 38,
+        "carType": "GTS",
+        "roadName": "GPMX",
+        "roadNumber": 10008,
+        "color": ""
+      },
+      {
+        "id": 39,
+        "carType": "GTS",
+        "roadName": "GPMX",
+        "roadNumber": 10022,
+        "color": ""
+      },
+      {
+        "id": 40,
+        "carType": "GTS",
+        "roadName": "GPMX",
+        "roadNumber": 10035,
+        "color": ""
+      },
+      {
+        "id": 41,
+        "carType": "GTS",
+        "roadName": "GPMX",
+        "roadNumber": 10040,
+        "color": ""
+      },
+      {
+        "id": 42,
+        "carType": "XM",
+        "roadName": "USLX",
+        "roadNumber": 10392,
+        "color": ""
+      },
+      {
+        "id": 43,
+        "carType": "XM",
+        "roadName": "CP",
+        "roadNumber": 16729,
+        "color": ""
+      },
+      {
+        "id": 44,
+        "carType": "XM",
+        "roadName": "CP",
+        "roadNumber": 16731,
+        "color": ""
+      },
+      {
+        "id": 45,
+        "carType": "XM",
+        "roadName": "CP",
+        "roadNumber": 16752,
+        "color": ""
+      },
+      {
+        "id": 46,
+        "carType": "TA",
+        "roadName": "SHPX",
+        "roadNumber": 17040,
+        "color": ""
+      },
+      {
+        "id": 47,
+        "carType": "XM",
+        "roadName": "SOO",
+        "roadNumber": 18979,
+        "color": ""
+      },
+      {
+        "id": 48,
+        "carType": "XM",
+        "roadName": "SOO",
+        "roadNumber": 18988,
+        "color": ""
+      },
+      {
+        "id": 49,
+        "carType": "TA",
+        "roadName": "ACFX",
+        "roadNumber": 19421,
+        "color": ""
+      },
+      {
+        "id": 50,
+        "carType": "XM",
+        "roadName": "CP",
+        "roadNumber": 20060,
+        "color": ""
+      },
+      {
+        "id": 51,
+        "carType": "XPT",
+        "roadName": "TCAX",
+        "roadNumber": 20075,
+        "color": ""
+      },
+      {
+        "id": 52,
+        "carType": "XPT",
+        "roadName": "TCAX",
+        "roadNumber": 20199,
+        "color": ""
+      },
+      {
+        "id": 53,
+        "carType": "XM",
+        "roadName": "MRL",
+        "roadNumber": 25011,
+        "color": ""
+      },
+      {
+        "id": 54,
+        "carType": "XM",
+        "roadName": "MRL",
+        "roadNumber": 25044,
+        "color": ""
+      },
+      {
+        "id": 55,
+        "carType": "XM",
+        "roadName": "MRL",
+        "roadNumber": 25055,
+        "color": ""
+      },
+      {
+        "id": 56,
+        "carType": "TA",
+        "roadName": "ADMX",
+        "roadNumber": 29866,
+        "color": ""
+      },
+      {
+        "id": 57,
+        "carType": "XM",
+        "roadName": "BCIT",
+        "roadNumber": 41680,
+        "color": ""
+      },
+      {
+        "id": 58,
+        "carType": "XM",
+        "roadName": "CP",
+        "roadNumber": 49201,
+        "color": ""
+      },
+      {
+        "id": 59,
+        "carType": "HT",
+        "roadName": "ADMX",
+        "roadNumber": 50051,
+        "color": ""
+      },
+      {
+        "id": 60,
+        "carType": "HT",
+        "roadName": "ADMX",
+        "roadNumber": 50070,
+        "color": ""
+      },
+      {
+        "id": 61,
+        "carType": "HT",
+        "roadName": "ACFX",
+        "roadNumber": 51110,
+        "color": ""
+      },
+      {
+        "id": 62,
+        "carType": "HT",
+        "roadName": "ACFX",
+        "roadNumber": 51134,
+        "color": ""
+      },
+      {
+        "id": 63,
+        "carType": "HT",
+        "roadName": "ACFX",
+        "roadNumber": 51491,
+        "color": ""
+      },
+      {
+        "id": 64,
+        "carType": "XM",
+        "roadName": "ATSF",
+        "roadNumber": 51580,
+        "color": ""
+      },
+      {
+        "id": 65,
+        "carType": "XM",
+        "roadName": "ATSF",
+        "roadNumber": 51585,
+        "color": ""
+      },
+      {
+        "id": 66,
+        "carType": "XM",
+        "roadName": "CP",
+        "roadNumber": 55947,
+        "color": ""
+      },
+      {
+        "id": 67,
+        "carType": "HT",
+        "roadName": "SOO",
+        "roadNumber": 70047,
+        "color": ""
+      },
+      {
+        "id": 68,
+        "carType": "HT",
+        "roadName": "SOO",
+        "roadNumber": 70056,
+        "color": ""
+      },
+      {
+        "id": 69,
+        "carType": "HT",
+        "roadName": "SOO",
+        "roadNumber": 70059,
+        "color": ""
+      },
+      {
+        "id": 70,
+        "carType": "FBC",
+        "roadName": "TCAX",
+        "roadNumber": 70061,
+        "color": ""
+      },
+      {
+        "id": 71,
+        "carType": "FC",
+        "roadName": "ACL",
+        "roadNumber": 79104,
+        "color": ""
+      },
+      {
+        "id": 72,
+        "carType": "XM",
+        "roadName": "CP",
+        "roadNumber": 84991,
+        "color": ""
+      },
+      {
+        "id": 73,
+        "carType": "XM",
+        "roadName": "CP",
+        "roadNumber": 85697,
+        "color": ""
+      },
+      {
+        "id": 74,
+        "carType": "TA",
+        "roadName": "ACFX",
+        "roadNumber": 86471,
+        "color": ""
+      },
+      {
+        "id": 75,
+        "carType": "HTC",
+        "roadName": "CNWX",
+        "roadNumber": 100251,
+        "color": ""
+      },
+      {
+        "id": 76,
+        "carType": "HTC",
+        "roadName": "CNWX",
+        "roadNumber": 100268,
+        "color": ""
+      },
+      {
+        "id": 77,
+        "carType": "HTC",
+        "roadName": "CNWX",
+        "roadNumber": 100456,
+        "color": ""
+      },
+      {
+        "id": 78,
+        "carType": "HT",
+        "roadName": "SOO",
+        "roadNumber": 101067,
+        "color": ""
+      },
+      {
+        "id": 79,
+        "carType": "HT",
+        "roadName": "SOO",
+        "roadNumber": 101073,
+        "color": ""
+      },
+      {
+        "id": 80,
+        "carType": "HTC",
+        "roadName": "CNWX",
+        "roadNumber": 109952,
+        "color": ""
+      },
+      {
+        "id": 81,
+        "carType": "HTC",
+        "roadName": "CNWX",
+        "roadNumber": 110065,
+        "color": ""
+      },
+      {
+        "id": 82,
+        "carType": "HT",
+        "roadName": "SOO",
+        "roadNumber": 119145,
+        "color": ""
+      },
+      {
+        "id": 83,
+        "carType": "XM",
+        "roadName": "CP",
+        "roadNumber": 167060,
+        "color": ""
+      },
+      {
+        "id": 84,
+        "carType": "XM",
+        "roadName": "CP",
+        "roadNumber": 204050,
+        "color": ""
+      },
+      {
+        "id": 85,
+        "carType": "XMO",
+        "roadName": "CP",
+        "roadNumber": 215120,
+        "color": ""
+      },
+      {
+        "id": 86,
+        "carType": "XMO",
+        "roadName": "CP",
+        "roadNumber": 215131,
+        "color": ""
+      },
+      {
+        "id": 87,
+        "carType": "XMO",
+        "roadName": "CP",
+        "roadNumber": 215136,
+        "color": ""
+      },
+      {
+        "id": 88,
+        "carType": "XMO",
+        "roadName": "CP",
+        "roadNumber": 215137,
+        "color": ""
+      },
+      {
+        "id": 89,
+        "carType": "XMO",
+        "roadName": "CP",
+        "roadNumber": 215140,
+        "color": ""
+      },
+      {
+        "id": 90,
+        "carType": "XMO",
+        "roadName": "CP",
+        "roadNumber": 218103,
+        "color": ""
+      },
+      {
+        "id": 91,
+        "carType": "XMO",
+        "roadName": "CP",
+        "roadNumber": 218104,
+        "color": ""
+      },
+      {
+        "id": 92,
+        "carType": "XMO",
+        "roadName": "CP",
+        "roadNumber": 218105,
+        "color": ""
+      },
+      {
+        "id": 93,
+        "carType": "XMO",
+        "roadName": "CP",
+        "roadNumber": 218106,
+        "color": ""
+      },
+      {
+        "id": 94,
+        "carType": "XMO",
+        "roadName": "CP",
+        "roadNumber": 218107,
+        "color": ""
+      },
+      {
+        "id": 95,
+        "carType": "XMO",
+        "roadName": "CP",
+        "roadNumber": 218108,
+        "color": ""
+      },
+      {
+        "id": 96,
+        "carType": "XMO",
+        "roadName": "CP",
+        "roadNumber": 218109,
+        "color": ""
+      },
+      {
+        "id": 97,
+        "carType": "XMO",
+        "roadName": "CP",
+        "roadNumber": 218110,
+        "color": ""
+      },
+      {
+        "id": 98,
+        "carType": "XMO",
+        "roadName": "CP",
+        "roadNumber": 218111,
+        "color": ""
+      },
+      {
+        "id": 99,
+        "carType": "XMO",
+        "roadName": "CP",
+        "roadNumber": 218112,
+        "color": ""
+      },
+      {
+        "id": 100,
+        "carType": "XMO",
+        "roadName": "CP",
+        "roadNumber": 218113,
+        "color": ""
+      },
+      {
+        "id": 101,
+        "carType": "XMO",
+        "roadName": "CP",
+        "roadNumber": 218114,
+        "color": ""
+      },
+      {
+        "id": 102,
+        "carType": "TA",
+        "roadName": "SHPX",
+        "roadNumber": 240300,
+        "color": ""
+      },
+      {
+        "id": 103,
+        "carType": "XM",
+        "roadName": "CN",
+        "roadNumber": 283032,
+        "color": ""
+      },
+      {
+        "id": 104,
+        "carType": "XM",
+        "roadName": "CP",
+        "roadNumber": 285602,
+        "color": ""
+      },
+      {
+        "id": 105,
+        "carType": "XM",
+        "roadName": "CP",
+        "roadNumber": 285605,
+        "color": ""
+      },
+      {
+        "id": 106,
+        "carType": "XM",
+        "roadName": "CP",
+        "roadNumber": 285606,
+        "color": ""
+      },
+      {
+        "id": 107,
+        "carType": "XM",
+        "roadName": "CP",
+        "roadNumber": 285608,
+        "color": ""
+      },
+      {
+        "id": 108,
+        "carType": "XM",
+        "roadName": "CP",
+        "roadNumber": 286264,
+        "color": ""
+      },
+      {
+        "id": 109,
+        "carType": "HT",
+        "roadName": "GTW",
+        "roadNumber": 315060,
+        "color": ""
+      },
+      {
+        "id": 110,
+        "carType": "FB",
+        "roadName": "CP",
+        "roadNumber": 317128,
+        "color": ""
+      },
+      {
+        "id": 111,
+        "carType": "FB",
+        "roadName": "CP",
+        "roadNumber": 317137,
+        "color": ""
+      },
+      {
+        "id": 112,
+        "carType": "FB",
+        "roadName": "CP",
+        "roadNumber": 317438,
+        "color": ""
+      },
+      {
+        "id": 113,
+        "carType": "FB",
+        "roadName": "CP",
+        "roadNumber": 317642,
+        "color": ""
+      },
+      {
+        "id": 114,
+        "carType": "FBC",
+        "roadName": "CP",
+        "roadNumber": 318005,
+        "color": ""
+      },
+      {
+        "id": 115,
+        "carType": "FBC",
+        "roadName": "CP",
+        "roadNumber": 318088,
+        "color": ""
+      },
+      {
+        "id": 116,
+        "carType": "HTC",
+        "roadName": "CP",
+        "roadNumber": 382737,
+        "color": ""
+      },
+      {
+        "id": 117,
+        "carType": "XM",
+        "roadName": "GTW",
+        "roadNumber": 384606,
+        "color": ""
+      },
+      {
+        "id": 118,
+        "carType": "HTC",
+        "roadName": "CP",
+        "roadNumber": 384978,
+        "color": ""
+      },
+      {
+        "id": 119,
+        "carType": "HTC",
+        "roadName": "CP",
+        "roadNumber": 385193,
+        "color": ""
+      },
+      {
+        "id": 120,
+        "carType": "HTC",
+        "roadName": "CP",
+        "roadNumber": 385321,
+        "color": ""
+      },
+      {
+        "id": 121,
+        "carType": "HTC",
+        "roadName": "CP",
+        "roadNumber": 385468,
+        "color": ""
+      },
+      {
+        "id": 122,
+        "carType": "HTC",
+        "roadName": "CP",
+        "roadNumber": 388954,
+        "color": ""
+      },
+      {
+        "id": 123,
+        "carType": "HTC",
+        "roadName": "ALNX",
+        "roadNumber": 396012,
+        "color": ""
+      },
+      {
+        "id": 124,
+        "carType": "HTC",
+        "roadName": "ALNX",
+        "roadNumber": 396033,
+        "color": ""
+      },
+      {
+        "id": 125,
+        "carType": "HTC",
+        "roadName": "SKPX",
+        "roadNumber": 397425,
+        "color": ""
+      },
+      {
+        "id": 126,
+        "carType": "XM",
+        "roadName": "CNA",
+        "roadNumber": 405014,
+        "color": ""
+      },
+      {
+        "id": 127,
+        "carType": "XM",
+        "roadName": "CNA",
+        "roadNumber": 405020,
+        "color": ""
+      },
+      {
+        "id": 128,
+        "carType": "HT",
+        "roadName": "BNSF",
+        "roadNumber": 406680,
+        "color": ""
+      },
+      {
+        "id": 129,
+        "carType": "HT",
+        "roadName": "BNSF",
+        "roadNumber": 406685,
+        "color": ""
+      },
+      {
+        "id": 130,
+        "carType": "HT",
+        "roadName": "BNSF",
+        "roadNumber": 406692,
+        "color": ""
+      },
+      {
+        "id": 131,
+        "carType": "HT",
+        "roadName": "BNSF",
+        "roadNumber": 406696,
+        "color": ""
+      },
+      {
+        "id": 132,
+        "carType": "HT",
+        "roadName": "BNSF",
+        "roadNumber": 407451,
+        "color": ""
+      },
+      {
+        "id": 133,
+        "carType": "HT",
+        "roadName": "BNSF",
+        "roadNumber": 407463,
+        "color": ""
+      },
+      {
+        "id": 134,
+        "carType": "HT",
+        "roadName": "BNSF",
+        "roadNumber": 407472,
+        "color": ""
+      },
+      {
+        "id": 135,
+        "carType": "HT",
+        "roadName": "BNSF",
+        "roadNumber": 407484,
+        "color": ""
+      },
+      {
+        "id": 136,
+        "carType": "HT",
+        "roadName": "BNSF",
+        "roadNumber": 407489,
+        "color": ""
+      },
+      {
+        "id": 137,
+        "carType": "HT",
+        "roadName": "BNSF",
+        "roadNumber": 407495,
+        "color": ""
+      },
+      {
+        "id": 138,
+        "carType": "XM",
+        "roadName": "CN",
+        "roadNumber": 413002,
+        "color": ""
+      },
+      {
+        "id": 139,
+        "carType": "HT",
+        "roadName": "BNSF",
+        "roadNumber": 420001,
+        "color": ""
+      },
+      {
+        "id": 140,
+        "carType": "HT",
+        "roadName": "BNSF",
+        "roadNumber": 420123,
+        "color": ""
+      },
+      {
+        "id": 141,
+        "carType": "HT",
+        "roadName": "BNSF",
+        "roadNumber": 422265,
+        "color": ""
+      },
+      {
+        "id": 142,
+        "carType": "HT",
+        "roadName": "BNSF",
+        "roadNumber": 422297,
+        "color": ""
+      },
+      {
+        "id": 143,
+        "carType": "HT",
+        "roadName": "BNSF",
+        "roadNumber": 422323,
+        "color": ""
+      },
+      {
+        "id": 144,
+        "carType": "HT",
+        "roadName": "BNSF",
+        "roadNumber": 424964,
+        "color": ""
+      },
+      {
+        "id": 145,
+        "carType": "HT",
+        "roadName": "BN",
+        "roadNumber": 458585,
+        "color": ""
+      },
+      {
+        "id": 146,
+        "carType": "HT",
+        "roadName": "BN",
+        "roadNumber": 458633,
+        "color": ""
+      },
+      {
+        "id": 147,
+        "carType": "HT",
+        "roadName": "BN",
+        "roadNumber": 458659,
+        "color": ""
+      },
+      {
+        "id": 148,
+        "carType": "HT",
+        "roadName": "BN",
+        "roadNumber": 458710,
+        "color": ""
+      },
+      {
+        "id": 149,
+        "carType": "FB",
+        "roadName": "GSVR",
+        "roadNumber": 459003,
+        "color": ""
+      },
+      {
+        "id": 150,
+        "carType": "HT",
+        "roadName": "BN",
+        "roadNumber": 459540,
+        "color": ""
+      },
+      {
+        "id": 151,
+        "carType": "HT",
+        "roadName": "BN",
+        "roadNumber": 459608,
+        "color": ""
+      },
+      {
+        "id": 152,
+        "carType": "HT",
+        "roadName": "BN",
+        "roadNumber": 459637,
+        "color": ""
+      },
+      {
+        "id": 153,
+        "carType": "HT",
+        "roadName": "BN",
+        "roadNumber": 459828,
+        "color": ""
+      },
+      {
+        "id": 154,
+        "carType": "FC",
+        "roadName": "CP",
+        "roadNumber": 504485,
+        "color": ""
+      },
+      {
+        "id": 155,
+        "carType": "GTS",
+        "roadName": "BNSF",
+        "roadNumber": 541310,
+        "color": ""
+      },
+      {
+        "id": 156,
+        "carType": "GTS",
+        "roadName": "BNSF",
+        "roadNumber": 541331,
+        "color": ""
+      },
+      {
+        "id": 157,
+        "carType": "GTS",
+        "roadName": "BNSF",
+        "roadNumber": 541427,
+        "color": ""
+      },
+      {
+        "id": 158,
+        "carType": "XM",
+        "roadName": "CN",
+        "roadNumber": 550235,
+        "color": ""
+      },
+      {
+        "id": 159,
+        "carType": "FBC",
+        "roadName": "BNSF",
+        "roadNumber": 559511,
+        "color": ""
+      },
+      {
+        "id": 160,
+        "carType": "FBC",
+        "roadName": "BNSF",
+        "roadNumber": 559519,
+        "color": ""
+      },
+      {
+        "id": 161,
+        "carType": "FBC",
+        "roadName": "BNSF",
+        "roadNumber": 559557,
+        "color": ""
+      },
+      {
+        "id": 162,
+        "carType": "HTC",
+        "roadName": "CPWX",
+        "roadNumber": 600205,
+        "color": ""
+      },
+      {
+        "id": 163,
+        "carType": "HTC",
+        "roadName": "CPWX",
+        "roadNumber": 602128,
+        "color": ""
+      },
+      {
+        "id": 164,
+        "carType": "HTC",
+        "roadName": "CPWX",
+        "roadNumber": 602285,
+        "color": ""
+      },
+      {
+        "id": 165,
+        "carType": "HTC",
+        "roadName": "CPWX",
+        "roadNumber": 606333,
+        "color": ""
+      },
+      {
+        "id": 166,
+        "carType": "HTC",
+        "roadName": "CPWX",
+        "roadNumber": 606420,
+        "color": ""
+      },
+      {
+        "id": 167,
+        "carType": "HTC",
+        "roadName": "CPWX",
+        "roadNumber": 606525,
+        "color": ""
+      },
+      {
+        "id": 168,
+        "carType": "HTC",
+        "roadName": "CPWX",
+        "roadNumber": 606617,
+        "color": ""
+      },
+      {
+        "id": 169,
+        "carType": "HTC",
+        "roadName": "CPWX",
+        "roadNumber": 606704,
+        "color": ""
+      },
+      {
+        "id": 170,
+        "carType": "HTC",
+        "roadName": "CPWX",
+        "roadNumber": 606818,
+        "color": ""
+      },
+      {
+        "id": 171,
+        "carType": "FBC",
+        "roadName": "BNSF",
+        "roadNumber": 625018,
+        "color": ""
+      },
+      {
+        "id": 172,
+        "carType": "FBC",
+        "roadName": "BNSF",
+        "roadNumber": 625029,
+        "color": ""
+      },
+      {
+        "id": 173,
+        "carType": "FBC",
+        "roadName": "BNSF",
+        "roadNumber": 625055,
+        "color": ""
+      },
+      {
+        "id": 174,
+        "carType": "XPB",
+        "roadName": "ATSF",
+        "roadNumber": 625326,
+        "color": ""
+      },
+      {
+        "id": 175,
+        "carType": "XPB",
+        "roadName": "ATSF",
+        "roadNumber": 625344,
+        "color": ""
+      },
+      {
+        "id": 176,
+        "carType": "XPB",
+        "roadName": "ATSF",
+        "roadNumber": 625377,
+        "color": ""
+      },
+      {
+        "id": 177,
+        "carType": "HTC",
+        "roadName": "SKPX",
+        "roadNumber": 625385,
+        "color": ""
+      },
+      {
+        "id": 178,
+        "carType": "HTC",
+        "roadName": "ALPX",
+        "roadNumber": 628004,
+        "color": ""
+      },
+      {
+        "id": 179,
+        "carType": "HTC",
+        "roadName": "ALPX",
+        "roadNumber": 628036,
+        "color": ""
+      },
+      {
+        "id": 180,
+        "carType": "HTC",
+        "roadName": "ALPX",
+        "roadNumber": 628122,
+        "color": ""
+      },
+      {
+        "id": 181,
+        "carType": "HTC",
+        "roadName": "ALPX",
+        "roadNumber": 628172,
+        "color": ""
+      },
+      {
+        "id": 182,
+        "carType": "HTC",
+        "roadName": "ALPX",
+        "roadNumber": 628204,
+        "color": ""
+      },
+      {
+        "id": 183,
+        "carType": "HTC",
+        "roadName": "ALPX",
+        "roadNumber": 628257,
+        "color": ""
+      },
+      {
+        "id": 184,
+        "carType": "HTC",
+        "roadName": "ALPX",
+        "roadNumber": 628315,
+        "color": ""
+      },
+      {
+        "id": 185,
+        "carType": "HTC",
+        "roadName": "ALPX",
+        "roadNumber": 628468,
+        "color": ""
+      },
+      {
+        "id": 186,
+        "carType": "HTC",
+        "roadName": "ALPX",
+        "roadNumber": 628513,
+        "color": ""
+      },
+      {
+        "id": 187,
+        "carType": "GHC",
+        "roadName": "BNSF",
+        "roadNumber": 667992,
+        "color": ""
+      },
+      {
+        "id": 188,
+        "carType": "GHC",
+        "roadName": "BNSF",
+        "roadNumber": 668446,
+        "color": ""
+      },
+      {
+        "id": 189,
+        "carType": "GHC",
+        "roadName": "BNSF",
+        "roadNumber": 668463,
+        "color": ""
+      },
+      {
+        "id": 190,
+        "carType": "GHC",
+        "roadName": "BNSF",
+        "roadNumber": 668476,
+        "color": ""
+      },
+      {
+        "id": 191,
+        "carType": "GHC",
+        "roadName": "BNSF",
+        "roadNumber": 668524,
+        "color": ""
+      },
+      {
+        "id": 192,
+        "carType": "GHC",
+        "roadName": "BNSF",
+        "roadNumber": 668595,
+        "color": ""
+      },
+      {
+        "id": 193,
+        "carType": "GHC",
+        "roadName": "BNSF",
+        "roadNumber": 668613,
+        "color": ""
+      },
+      {
+        "id": 194,
+        "carType": "GHC",
+        "roadName": "BNSF",
+        "roadNumber": 668729,
+        "color": ""
+      },
+      {
+        "id": 195,
+        "carType": "GHC",
+        "roadName": "BNSF",
+        "roadNumber": 668752,
+        "color": ""
+      },
+      {
+        "id": 196,
+        "carType": "GHC",
+        "roadName": "BNSF",
+        "roadNumber": 668763,
+        "color": ""
+      },
+      {
+        "id": 197,
+        "carType": "XMO",
+        "roadName": "BNSF",
+        "roadNumber": 760651,
+        "color": ""
+      },
+      {
+        "id": 198,
+        "carType": "XMO",
+        "roadName": "BNSF",
+        "roadNumber": 760653,
+        "color": ""
+      },
+      {
+        "id": 199,
+        "carType": "XMO",
+        "roadName": "BNSF",
+        "roadNumber": 760656,
+        "color": ""
+      },
+      {
+        "id": 200,
+        "carType": "XMO",
+        "roadName": "BNSF",
+        "roadNumber": 760659,
+        "color": ""
+      },
+      {
+        "id": 201,
+        "carType": "XMO",
+        "roadName": "BNSF",
+        "roadNumber": 760663,
+        "color": ""
+      },
+      {
+        "id": 202,
+        "carType": "XMO",
+        "roadName": "BNSF",
+        "roadNumber": 760666,
+        "color": ""
+      },
+      {
+        "id": 203,
+        "carType": "XMO",
+        "roadName": "BNSF",
+        "roadNumber": 760667,
+        "color": ""
+      },
+      {
+        "id": 204,
+        "carType": "XM",
+        "roadName": "GVSR",
+        "roadNumber": 767161,
+        "color": ""
+      },
+      {
+        "id": 205,
+        "carType": "XPT",
+        "roadName": "BCIT",
+        "roadNumber": 800100,
+        "color": ""
+      },
+      {
+        "id": 206,
+        "carType": "XPT",
+        "roadName": "BCIT",
+        "roadNumber": 800116,
+        "color": ""
+      },
+      {
+        "id": 207,
+        "carType": "XPT",
+        "roadName": "BCIT",
+        "roadNumber": 800119,
+        "color": ""
+      },
+      {
+        "id": 208,
+        "carType": "FBC",
+        "roadName": "BCIT",
+        "roadNumber": 873069,
+        "color": ""
+      },
+      {
+        "id": 209,
+        "carType": "FBC",
+        "roadName": "BCIT",
+        "roadNumber": 873091,
+        "color": ""
+      },
+      {
+        "id": 210,
+        "carType": "FBC",
+        "roadName": "BCIT",
+        "roadNumber": 873096,
+        "color": ""
+      }
+    ]
+  ],
+  "industries": [
+    [
+      {
+        "id": 1,
+        "station": {
+          "id": 1,
+          "name": "Maltby",
+          "isYard": false,
+          "block": {
+            "id": 3,
+            "code": "ECHO",
+            "name": "Echo Lake"
+          }
+        },
+        "name": "Malt Bee Brewery",
+        "aarTypes": [
+          "XM",
+          "XMO",
+          "HTC",
+          "HM4"
+        ],
+        "maxCarCount": 8,
+        "placedCars": []
+      },
+      {
+        "id": 2,
+        "station": {
+          "id": 3,
+          "name": "Monroe",
+          "isYard": false,
+          "block": {
+            "id": 1,
+            "code": "EAST",
+            "name": "Eastern"
+          }
+        },
+        "name": "Monroe Yard",
+        "aarTypes": [
+          "ANY"
+        ],
+        "maxCarCount": 100,
+        "placedCars": []
+      }
+    ]
   ],
   "jokes": [
     {
