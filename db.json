@@ -88,13 +88,6 @@
         "color": ""
       },
       {
-        "id": 28,
-        "carType": "XM",
-        "roadName": "CNA",
-        "roadNumber": 4050,
-        "color": ""
-      },
-      {
         "id": 40,
         "carType": "GTS",
         "roadName": "GPMX",
@@ -102,45 +95,10 @@
         "color": ""
       },
       {
-        "id": 41,
-        "carType": "GTS",
-        "roadName": "GPMX",
-        "roadNumber": 10040,
-        "color": ""
-      },
-      {
-        "id": 69,
-        "carType": "HT",
-        "roadName": "SOO",
-        "roadNumber": 70059,
-        "color": ""
-      },
-      {
         "id": 70,
         "carType": "FBC",
         "roadName": "TCAX",
         "roadNumber": 70061,
-        "color": ""
-      },
-      {
-        "id": 71,
-        "carType": "FC",
-        "roadName": "ACL",
-        "roadNumber": 79104,
-        "color": ""
-      },
-      {
-        "id": 72,
-        "carType": "XM",
-        "roadName": "CP",
-        "roadNumber": 84991,
-        "color": ""
-      },
-      {
-        "id": 73,
-        "carType": "XM",
-        "roadName": "CP",
-        "roadNumber": 85697,
         "color": ""
       },
       {
@@ -155,20 +113,6 @@
         "carType": "HT",
         "roadName": "BNSF",
         "roadNumber": 407484,
-        "color": ""
-      },
-      {
-        "id": 136,
-        "carType": "HT",
-        "roadName": "BNSF",
-        "roadNumber": 407489,
-        "color": ""
-      },
-      {
-        "id": 209,
-        "carType": "FBC",
-        "roadName": "BCIT",
-        "roadNumber": 873091,
         "color": ""
       },
       {
@@ -224,19 +168,5 @@
         "placedCars": []
       }
     ]
-  ],
-  "jokes": [
-    {
-      "id": 1,
-      "type": "joke",
-      "setup": "Why do programmers confuse Christmas with Halloween?",
-      "punchline": "Because OCT 31 is the same as DEC 25."
-    },
-    {
-      "id": 2,
-      "type": "joke",
-      "setup": "Why do Java programmers have to wear glasses?",
-      "punchline": "Because they don’t C#"
-    }
   ]
 }
