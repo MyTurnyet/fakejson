@@ -22,16 +22,6 @@
         }
       },
       {
-        "id": 3,
-        "name": "Monroe",
-        "isYard": false,
-        "block": {
-          "id": 1,
-          "code": "EAST",
-          "name": "Eastern"
-        }
-      },
-      {
         "id": 4,
         "name": "Spokane Yard",
         "isYard": true,
@@ -67,27 +57,6 @@
         "color": ""
       },
       {
-        "id": 4,
-        "carType": "XM",
-        "roadName": "SOO",
-        "roadNumber": 189,
-        "color": ""
-      },
-      {
-        "id": 17,
-        "carType": "XMO",
-        "roadName": "CDAC",
-        "roadNumber": 1027,
-        "color": ""
-      },
-      {
-        "id": 27,
-        "carType": "XPT",
-        "roadName": "MD&W",
-        "roadNumber": 3054,
-        "color": ""
-      },
-      {
         "id": 40,
         "carType": "GTS",
         "roadName": "GPMX",
@@ -106,20 +75,6 @@
         "carType": "TA",
         "roadName": "ACFX",
         "roadNumber": 86471,
-        "color": ""
-      },
-      {
-        "id": 135,
-        "carType": "HT",
-        "roadName": "BNSF",
-        "roadNumber": 407484,
-        "color": ""
-      },
-      {
-        "id": 210,
-        "carType": "FBC",
-        "roadName": "BCIT",
-        "roadNumber": 873096,
         "color": ""
       }
     ]
