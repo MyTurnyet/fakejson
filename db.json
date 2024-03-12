@@ -123,5 +123,19 @@
         "placedCars": []
       }
     ]
+  ],
+  "jokes":[
+    {
+      "id": 1,
+      "type": "joke",
+      "setup": "Why do programmers confuse Christmas with Halloween?",
+      "punchline": "Because OCT 31 is the same as DEC 25."
+    },
+    {
+      "id": 2,
+      "type": "joke",
+      "setup": "Why do Java programmers have to wear glasses?",
+      "punchline": "Because they don’t C#"
+    }
   ]
 }
