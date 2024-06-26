@@ -127,13 +127,23 @@
   "jokes":[
     {
       "id": 1,
-      "type": "joke",
+      "type": "general",
+      "setup": "What happens when you eat tin-foil?",
+      "punchline": "You sheet metal!"
+    },    {
+      "id": 2,
+      "type": "general",
+      "setup": "How many psychiatrists does it take to change a light bulb?",
+      "punchline": "One, but the light bulb must WANT to change."
+    },    {
+      "id": 3,
+      "type": "programming",
       "setup": "Why do programmers confuse Christmas with Halloween?",
       "punchline": "Because OCT 31 is the same as DEC 25."
     },
     {
-      "id": 2,
-      "type": "joke",
+      "id": 4,
+      "type": "programming",
       "setup": "Why do Java programmers have to wear glasses?",
       "punchline": "Because they don’t C#"
     }
